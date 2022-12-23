@@ -104,7 +104,6 @@
     margin: 0;
     width: auto;
     height: auto;
-    margin-right: 8px;
     backdrop-filter: blur(15px);
     border-radius: 60px;
 }
@@ -123,6 +122,8 @@ body {
     background-color: rgba(5, 7, 10, 0.904);
     color: whitesmoke;
     font-family: 'Rubik', sans-serif;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling:touch;
 }
 
 .jam {
